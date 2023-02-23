@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimpleFactory.models
 {
-	internal class Car
+	public abstract class Car
 	{
+		public abstract void Manufacture();
 	}
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SimpleFactory.models
 {
-	internal class FourSeaterCar
+	public class FourSeaterCar : Car
 	{
+		public override void Manufacture()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
